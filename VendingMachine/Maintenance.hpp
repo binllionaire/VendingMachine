@@ -21,6 +21,7 @@ private:
     GreenTea greenTea;
     int menu;
     int take;
+    
 public:
     Maintenance();
     void setCoffee(int i);

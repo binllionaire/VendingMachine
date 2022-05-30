@@ -12,7 +12,6 @@ Operation::Operation()
     
 }
 
-
 void Operation::showDrink(){
     cout << "------------------------------------------"<<endl;
     cout << "                음료수 자판기             "<<endl;
@@ -60,29 +59,24 @@ int Operation::calculate(){
     if((temp/500)<=getW500()){
         c500=temp/500;
         temp = temp%500;
-        
     }
     else{
         temp=temp%500+((temp/500-getW500())*500);
         c500=getW500();
-        
     }
 
     if(temp/100<=getW100()){
         c100=temp/100;
         temp=temp%100;
-        
     }
     else{
         temp=temp%100+((temp/100- getW100())*100);
         c100= getW100();
-        
     }
     
     if(temp/50<= getW50()){
         c50=temp/50;
         temp=temp%50;
-        
     }
     else{
         temp=temp%50+((temp/50- getW50())*50);
@@ -91,7 +85,6 @@ int Operation::calculate(){
     if(temp/10 <= getW10()){
         c10=temp/10;
         temp=temp%10;
-        
     }
     else{
         cout << " 거스름돈이 모자랍니다 "<< endl;

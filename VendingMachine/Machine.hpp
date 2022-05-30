@@ -9,11 +9,14 @@
 
 using namespace std;
 class Machine{
+    
 private:
     int a;
     int menu;
+    
 public:
     void showMachine();
     void mainmenu();
     int getmenu();
+    
 };

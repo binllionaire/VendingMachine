@@ -10,7 +10,6 @@
 Maintenance::Maintenance():
 w500(0),w100(0),w50(0),w10(0),coin(0),count(0)
 {
-    
 }
 
 int Maintenance::maintenanceMenu(){
@@ -35,6 +34,7 @@ int Maintenance::maintenanceMenu(){
     }while(menu!=3);
     return menu;
 }
+
 int Maintenance::getW500(){
     return w500;
 }
@@ -73,8 +73,6 @@ void Maintenance::showCoin(){
     cout << "------------------------------------------"<<endl;
 }
 
-
-
 void Maintenance::supplyCoin(){
     while(1){
     showCoin();
@@ -104,7 +102,7 @@ void Maintenance::supplyCoin(){
     else{
         cout << "잘못된 입력입니다" << endl;
     }
-    }
+  }
 }
 
 void Maintenance::setCoffee(int i){
@@ -141,7 +139,6 @@ void Maintenance::report(){
     cout << "------------------------------------------"<<endl;
     cout << " 일일 총 매출액                      "<< take << "원" <<endl;
     cout << "------------------------------------------"<<endl;
-    
     cout << "계속하려면 아무 키나 누르십시오..." << endl;
     system("read");
     system("clear");

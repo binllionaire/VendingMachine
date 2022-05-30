@@ -15,31 +15,37 @@ public:
     int getPrice();
     string getIcon();
 };
+
 class Coffee : public Beverage{
 public:
     int getPrice();
     string getIcon();
 };
+
 class Milk : public Beverage{
 public:
     int getPrice();
     string getIcon();
 };
+
 class AppleJuice : public Beverage{
 public:
     int getPrice();
     string getIcon();
 };
+
 class BubbleTea : public Beverage{
 public:
     int getPrice();
     string getIcon();
 };
+
 class Coke : public Beverage{
 public:
     int getPrice();
     string getIcon();
 };
+
 class GreenTea : public Beverage{
 public:
     int getPrice();

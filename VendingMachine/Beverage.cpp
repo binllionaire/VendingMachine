@@ -11,7 +11,7 @@ int Beverage::getPrice(){
     return 0;
 }
 string Beverage::getIcon(){
-    return "null";
+    return " ";
 }
 int Coffee::getPrice(){
     return 350;

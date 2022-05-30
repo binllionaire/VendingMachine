@@ -19,7 +19,6 @@ private:
     BubbleTea bubbleTea;
     Coke coke;
     GreenTea greenTea;
-    
     int c500,c100,c50,c10;
     int change;
     int price;
